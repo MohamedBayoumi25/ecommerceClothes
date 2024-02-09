@@ -1,0 +1,453 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+/* background-color: #f56f42; */
+}
+
+.scroll {
+  position: fixed;
+  width: 4vw;
+  height: 8vh;
+  background-color: #f56f42;
+  right: 2vw;
+  bottom: 5vh;
+  z-index: 15;
+  border-radius: 50%;
+}
+.project-all {
+  width: 100%;
+  height: 100vh;
+}
+/*  navbar style  */
+.navbar {
+  position: fixed;
+  z-index: 555555555555555;
+  width: 100%;
+  height: 8vh;
+  background-color: #f56f42;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.navbar a:hover {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+}
+
+.links {
+  margin-top: 2vh;
+  margin-left: 10vw;
+  word-spacing: 3vw;
+  text-transform: capitalize;
+}
+.icons {
+  margin-right: 10vw;
+  word-spacing: 5vw;
+  margin-top: 2vh;
+  text-transform: capitalize;
+}
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5vw;
+}
+.icons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5vw;
+}
+/*  body style  */
+.contant {
+  height: 92vh;
+  width: 100%;
+  margin: auto;
+  background-image: url(image/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.opacity {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.contant .cont {
+  position: absolute;
+  top: 30vh;
+  left: 5vw;
+  z-index: 5;
+  color: #fff;
+}
+.contant .cont p {
+  margin-bottom: 2.5vh;
+  font-size: 3vw;
+  text-transform: capitalize;
+}
+.contant .cont h1 {
+  font-size: 5vw;
+  text-transform: capitalize;
+}
+.contant .cont button {
+  margin-top: 2.5vh;
+  background-color: #f56f42;
+  color: #fff;
+  border: none;
+  width: 7.5vw;
+  height: 4.5vh;
+  font-size: 1vw;
+}
+/*shop Card =================================================*/
+.shopcard {
+  position:  fixed;
+  margin-top: 8vh;
+  z-index: 555555555555555;
+  top: 0px;
+  right: 0px;
+  width: 20%;
+  height: 30vh;
+  background-color: #fff;
+  z-index: 10000;
+}
+.table {
+  width: 100%;
+  background-color: #f56f42;
+  margin: 1vh 0px;
+  font-size: 1.2vw;
+  position: absolute;
+  z-index: 500000000000000000;
+}
+.table tr {
+  margin: 1vh 1vh;
+
+}
+/*about =================================================*/
+#about {
+  width: 100%;
+  height: 20vh;
+  margin: 2vh 0px;
+  text-align: center;
+  background-color: #fff;
+  justify-content: center;
+  font-size: 2vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#about p {
+  color: #f56f42;
+  padding-top: 3.5vh;
+  text-transform: capitalize;
+}
+
+/*category =================================================*/
+
+#category {
+  display: flex;
+  
+  background-color: #f56f42;
+}
+#category div {
+  display: flex;
+  width: 16vw;
+  height: 10vh;
+  margin: 0.5vw;
+  background-color: white;
+  margin-top: 2.5vh;
+  border-radius: 10px;
+  color: #f56f42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2vw;
+  text-transform: capitalize;
+}
+#category div:hover {
+
+
+}
+
+category div:focus {
+  background-color: red;
+}
+#product {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #EEEDEB;
+  padding-left: 20px;
+  overflow: auto;
+
+}
+#product div {
+  width: 15vw;
+  height: 47vh;
+  margin: 0.5vw;
+  background-color: white;
+  margin-top: 2.5vh;
+  border-radius: 10px;
+  color: #f56f42;
+  overflow: auto;
+
+}
+#product .des1 {
+  text-align: center;
+  font-size: 2vw;
+  text-transform: capitalize;
+}
+#product .des1 .image {
+  width: 100%;
+  height: 50%;
+  margin: 0px;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#product .des1 .image:hover {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#product .des1 p {
+  margin-top: 2vh;
+}
+
+#product .des1 button {
+  width: 90%;
+  height: 5vh;
+  background-color: #f56f42;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 3vh;
+}
+#product .des1 button:hover {
+  width: 92%;
+  height: 6vh;
+  
+}
+
+/*contect design=================================================*/
+
+#fullCard {
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  margin: 10vh 10%;
+  background-color: #EEEDEB;
+  color: black;
+
+}
+.imgg {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+  display: inline-flex;
+  background-image: url(image/contect.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.content {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+input {
+  width: 100%;
+  height: 5vh;
+  color: black;
+  z-index: 100;
+  padding-left: 1vw;
+  
+  
+
+}
+
+form div {
+  margin: 4vh 5vh;
+}
+form p {
+  display: none;
+}
+form button {
+  width: 80%;
+  height: 6vh;
+  margin: auto;
+  margin: 2vh 5vh;
+  border: none;
+}
+form button:hover {
+  background-color: #f56f42;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 3vh;
+  text-transform: capitalize;
+}
+textarea{
+  width: 100%;
+  height: 15vh;
+}
+
+/*Footer =================================================*/
+.footer {
+  margin-top: 150px;
+  display: flex;
+  height: 20vh;
+  background-color: #f56f42;
+  justify-content: space-between;
+  padding: 0px 10%;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+.contect {
+  font-size: 1.2vw;
+}
+.contect p {
+  margin-top: 1vh;
+  font-size: 1.2vw;
+  font-weight: 600;
+  text-align: start;
+}
+.quickLinks a {
+  text-transform: capitalize;
+  display: block;
+  text-decoration: none;
+  margin-top: 1vh;
+  color: white;
+  font-weight: 700;
+}
+.quickLinks a:hover {
+  border-bottom: yellow solid 2px;
+  color: yellow;
+}
+h2 {
+  width: 100%;
+  border-bottom: #f56f42 solid 2px;
+}
+.follow i {
+  margin-top: 1.5vh;
+  margin-right: 2vw;
+  font-size: 2vw;
+}
+ i:hover {
+ color: yellow;
+ font-size: 2.5vw;
+
+}
+/* Create Details card-------------------------------------------- */
+  
+.detailsCard{
+  display:flex;
+  width: 60%;
+  height:55vh;
+  margin: 10vh auto;
+  background-color: white;
+  
+
+ 
+}
+.contentOfDetailsPage{
+  color: #000;
+  width: 42%;
+  height: 82%;
+  background-color: #f56f42;
+  padding: 5vh 5vh;
+}
+.contentOfDetailsPage .size{
+  margin: 5vh 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+}
+.contentOfDetailsPage  h3{
+ margin-bottom: 4vh;
+}
+.contentOfDetailsPage .size  h3{
+  margin-bottom: 0px;
+  margin-right: 3vh;
+ }
+.contentOfDetailsPage .size div{
+  width: 5.5vh;
+  height: 5vh;
+  background-color: #f2f1f2;
+  margin-right: 1vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  font-size: larger;
+}
+.contentOfDetailsPage .btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+ .contentOfDetailsPage .btn button{
+
+ border: none;
+ width:40%;
+ height: 5vh;
+}
+.content .btn button:hover{
+
+ border-radius: 10px;
+ width:42%;
+ height: 7vh;
+ font-size: large;
+ 
+ }
+
+.imgProduct{
+  width: 50%;
+  height: 100%;
+  background-color:#f2f1f2;
+  
+  display: block;
+
+}
+
+
+
+.imgProduct .productImage
+{
+  height: 60%;
+  width: 60%;
+   margin:5vh auto;
+  background-color: #EFECEC;
+
+}
+.imgProduct .productImageSmail
+{
+  height: 20%;
+  width: 90%;
+   margin:5vh auto;
+  background-color: #f56f42;
+  display: flex;
+
+  
+}
+.imgProduct .productImageSmail div
+{
+  height: 80%;
+  width: 18%;
+  margin-top: 2%;
+   margin-right: 2%;
+  background-color: #EFECEC;
+  
+}
+
+
+#tbody{
+  margin:1vh 1vh;
+}
